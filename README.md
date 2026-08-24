@@ -1,14 +1,38 @@
-# PROJETO FINAL CURSO CIÊNCIA DE DADOS EBAC
+# Projeto Final — Curso de Ciência de Dados EBAC
 
-Esse repositório possui todos os arquivos necessários para o projeto.
+Projeto final do curso de Ciência de Dados da EBAC: modelo de classificação de risco de inadimplência com aplicação Streamlit.
 
-O qual consiste, principalmente, de um arquivo jupyter notebook que contém com todos os detalhes a modelagem
-de um modelo de classificação de potenciais clientes inadimplentes. Também um aplicativo streamlit, que simula a utilização
-desse modelo para prever esse risco para novos clientes.
+## Sobre
 
-Por favor, abrir o arquivo `Projeto_Final_Curso_EBAC.ipynb`.
+O projeto consiste na modelagem de um classificador de potenciais clientes inadimplentes, detalhado em `Projeto_Final_Curso_EBAC.ipynb`, além de uma aplicação Streamlit que simula a utilização do modelo para prever esse risco em novos clientes.
 
-Aqui está um GIF do meu projeto em funcionamento:
+## Tecnologias
 
-![GIF do Projeto](video.gif)
+`Python` `scikit-learn` `Streamlit`
 
+## Estrutura do repositório
+
+- `Projeto_Final_Curso_EBAC.ipynb` — modelagem completa
+- `Final GBC Model.pkl` — modelo treinado (Gradient Boosting Classifier)
+- `streamlit/` — aplicação Streamlit
+- `video.gif` — demonstração do projeto em funcionamento
+
+## Como executar
+
+**Notebook:** abrir `Projeto_Final_Curso_EBAC.ipynb` em um ambiente Jupyter/Colab.
+
+**Streamlit:**
+```bash
+cd streamlit
+pip install -r requirements.txt
+streamlit run projeto_final_app.py
+```
+
+## Demonstração
+
+![Demonstração do projeto](video.gif)
+
+## Autor
+
+Davi Dutra Ferreira
+[LinkedIn](https://www.linkedin.com/in/davidufe)
